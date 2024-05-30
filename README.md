@@ -10,9 +10,9 @@ Simple Go Grud application to practice:
 
 ## Testing Funcionalities
 
-### Sign Up
-
+### Curls
 ````bash
+### SignUp
 curl -s --location --request POST 'http://localhost:8080/users/signup' \
  --data-raw '{
  "Username":"daniel",
