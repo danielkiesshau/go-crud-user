@@ -8,6 +8,17 @@ Simple Go Grud application to practice:
 - MongoDB
 - Authorization Model
 
+## To run the project
+1. Run a MongoDb container
+```bash
+docker build -t mongo-image
+docker run -d -p 27017:27017 --name mongo-container mongo-image
+```
+2. Run the Go Project
+```bash
+go run ./main.go
+```
+
 ## Testing Funcionalities
 
 ### Curls
