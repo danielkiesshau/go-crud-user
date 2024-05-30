@@ -29,6 +29,8 @@ func main() {
 			"success": "Welcome to shive api!"})
 	})
 
+	routes.UserRoutes(*router)
+
 	router.Run(":" + port)
 
 }
