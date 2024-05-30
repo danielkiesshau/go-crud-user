@@ -1,3 +1,13 @@
+# User CRUD
+
+Simple Go Grud application to practice:
+
+- Go Syntax
+- Gin Framework
+- JWT
+- MongoDB
+- Authorization Model
+
 ## Testing Funcionalities
 
 ### Sign Up
